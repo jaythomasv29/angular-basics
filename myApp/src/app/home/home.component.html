@@ -1,0 +1,15 @@
+<!-- property binding -->
+<span [innerHTML]="message"></span>
+<!-- string interpolation -->
+<span>{{secret}}</span>
+<!-- button -->
+<!-- <input #userName type="text" value=''/>
+<button (click)="alertMe(userName.value)">Welcome me</button> -->
+Enter Your Name: 
+  <input #userName type="text" value=''>
+  <button #btn (click)=welcomeMe(userName.value)> Welcome Me </button>
+<br>
+<h2> Message from Event Binding</h2>
+<h3 id="output">
+Welcome {{name}}
+</h3>
